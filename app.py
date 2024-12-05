@@ -13,7 +13,7 @@ load_dotenv()
 # Initialize the embeddings model and vector store directory
 embedding_model_name = "sentence-transformers/all-MiniLM-L6-v2"
 hf_embeddings = HuggingFaceEmbeddings(model_name=embedding_model_name)
-persist_directory = "chroma_gradio_db"  # Directory to persist vector store
+
 
 # Global variable for Chroma DB (can be refreshed with new uploads)
 chroma_db = None
