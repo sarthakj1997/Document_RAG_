@@ -1,0 +1,11 @@
+llama-index
+pypdf
+python-dotenv
+groq
+langchain-groq
+langchain
+gradio
+langchain_community
+langchain_huggingface
+langchain_chroma
+langchain_core
